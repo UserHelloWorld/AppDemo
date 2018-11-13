@@ -45,9 +45,9 @@
 		1877CE6D219A696E0028BBB1 /* NFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877CE6C219A696E0028BBB1 /* NFTableViewCell.m */; };
 		1877CE70219A69AF0028BBB1 /* NFModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877CE6F219A69AF0028BBB1 /* NFModel.m */; };
 		1877CE73219A729F0028BBB1 /* NFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877CE72219A729F0028BBB1 /* NFImageView.m */; };
-		1877CE7C219A7F340028BBB1 /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877CE76219A7F340028BBB1 /* SDPhotoBrowser.m */; };
-		1877CE7D219A7F340028BBB1 /* SDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877CE77219A7F340028BBB1 /* SDWaitingView.m */; };
-		1877CE7E219A7F340028BBB1 /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877CE78219A7F340028BBB1 /* SDBrowserImageView.m */; };
+		1877CE87219AA1530028BBB1 /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877CE81219AA1530028BBB1 /* SDPhotoBrowser.m */; };
+		1877CE88219AA1530028BBB1 /* SDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877CE82219AA1530028BBB1 /* SDWaitingView.m */; };
+		1877CE89219AA1530028BBB1 /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877CE83219AA1530028BBB1 /* SDBrowserImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -117,13 +117,13 @@
 		1877CE6F219A69AF0028BBB1 /* NFModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFModel.m; sourceTree = "<group>"; };
 		1877CE71219A729F0028BBB1 /* NFImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFImageView.h; sourceTree = "<group>"; };
 		1877CE72219A729F0028BBB1 /* NFImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFImageView.m; sourceTree = "<group>"; };
-		1877CE75219A7F340028BBB1 /* SDPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowserConfig.h; sourceTree = "<group>"; };
-		1877CE76219A7F340028BBB1 /* SDPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPhotoBrowser.m; sourceTree = "<group>"; };
-		1877CE77219A7F340028BBB1 /* SDWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWaitingView.m; sourceTree = "<group>"; };
-		1877CE78219A7F340028BBB1 /* SDBrowserImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBrowserImageView.m; sourceTree = "<group>"; };
-		1877CE79219A7F340028BBB1 /* SDWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWaitingView.h; sourceTree = "<group>"; };
-		1877CE7A219A7F340028BBB1 /* SDPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowser.h; sourceTree = "<group>"; };
-		1877CE7B219A7F340028BBB1 /* SDBrowserImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBrowserImageView.h; sourceTree = "<group>"; };
+		1877CE80219AA1530028BBB1 /* SDPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowserConfig.h; sourceTree = "<group>"; };
+		1877CE81219AA1530028BBB1 /* SDPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPhotoBrowser.m; sourceTree = "<group>"; };
+		1877CE82219AA1530028BBB1 /* SDWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWaitingView.m; sourceTree = "<group>"; };
+		1877CE83219AA1530028BBB1 /* SDBrowserImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBrowserImageView.m; sourceTree = "<group>"; };
+		1877CE84219AA1530028BBB1 /* SDWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWaitingView.h; sourceTree = "<group>"; };
+		1877CE85219AA1530028BBB1 /* SDPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowser.h; sourceTree = "<group>"; };
+		1877CE86219AA1530028BBB1 /* SDBrowserImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBrowserImageView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,7 +272,7 @@
 				1877CE66219A5CA00028BBB1 /* View */,
 				1877CE67219A5CA60028BBB1 /* Model */,
 				1877CE54219A57E00028BBB1 /* Main.storyboard */,
-				1877CE74219A7F340028BBB1 /* SDPhotoBrowser */,
+				1877CE7F219AA1530028BBB1 /* SDPhotoBrowser */,
 				1877CE57219A57E10028BBB1 /* Assets.xcassets */,
 				1877CE59219A57E10028BBB1 /* LaunchScreen.storyboard */,
 				1877CE5C219A57E10028BBB1 /* Info.plist */,
@@ -310,19 +310,18 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		1877CE74219A7F340028BBB1 /* SDPhotoBrowser */ = {
+		1877CE7F219AA1530028BBB1 /* SDPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				1877CE75219A7F340028BBB1 /* SDPhotoBrowserConfig.h */,
-				1877CE76219A7F340028BBB1 /* SDPhotoBrowser.m */,
-				1877CE77219A7F340028BBB1 /* SDWaitingView.m */,
-				1877CE78219A7F340028BBB1 /* SDBrowserImageView.m */,
-				1877CE79219A7F340028BBB1 /* SDWaitingView.h */,
-				1877CE7A219A7F340028BBB1 /* SDPhotoBrowser.h */,
-				1877CE7B219A7F340028BBB1 /* SDBrowserImageView.h */,
+				1877CE80219AA1530028BBB1 /* SDPhotoBrowserConfig.h */,
+				1877CE81219AA1530028BBB1 /* SDPhotoBrowser.m */,
+				1877CE82219AA1530028BBB1 /* SDWaitingView.m */,
+				1877CE83219AA1530028BBB1 /* SDBrowserImageView.m */,
+				1877CE84219AA1530028BBB1 /* SDWaitingView.h */,
+				1877CE85219AA1530028BBB1 /* SDPhotoBrowser.h */,
+				1877CE86219AA1530028BBB1 /* SDBrowserImageView.h */,
 			);
-			name = SDPhotoBrowser;
-			path = "../../kocla/MicroStopForGardener1.2/MicroStopForOrganization/Third-party/SDPhotoBrowser";
+			path = SDPhotoBrowser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -566,13 +565,13 @@
 			files = (
 				1877CE6D219A696E0028BBB1 /* NFTableViewCell.m in Sources */,
 				1877CE53219A57E00028BBB1 /* ViewController.m in Sources */,
-				1877CE7C219A7F340028BBB1 /* SDPhotoBrowser.m in Sources */,
+				1877CE87219AA1530028BBB1 /* SDPhotoBrowser.m in Sources */,
 				1877CE5E219A57E10028BBB1 /* main.m in Sources */,
 				1877CE50219A57E00028BBB1 /* AppDelegate.m in Sources */,
 				1877CE73219A729F0028BBB1 /* NFImageView.m in Sources */,
-				1877CE7E219A7F340028BBB1 /* SDBrowserImageView.m in Sources */,
+				1877CE89219AA1530028BBB1 /* SDBrowserImageView.m in Sources */,
 				1877CE70219A69AF0028BBB1 /* NFModel.m in Sources */,
-				1877CE7D219A7F340028BBB1 /* SDWaitingView.m in Sources */,
+				1877CE88219AA1530028BBB1 /* SDWaitingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
