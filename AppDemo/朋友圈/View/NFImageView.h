@@ -11,6 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NFImageView : UIView
+
 @property (strong, nonatomic) NFModel *model;
 
 

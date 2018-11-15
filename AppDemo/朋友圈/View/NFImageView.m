@@ -25,7 +25,6 @@
         _imageViewArray = [NSMutableArray array];
         for (int i = 0; i < 9; i++) {
             UIImageView *imgView = [[UIImageView alloc] initWithFrame:CGRectZero];
-            imgView.image = [UIImage imageNamed:[NSString stringWithFormat:@"moment_pic_%d",i]];
             [_imageViewArray addObject:imgView];
             [self addSubview:imgView];
             imgView.tag = i + 10;
@@ -43,6 +42,9 @@
 }
 - (void)layoutSubviews {
     [super layoutSubviews];
+    for (UIImageView *img in self.imageViewArray) {
+        img.image = nil;
+    }
     for (int i = 0; i < self.model.imageCount; i++) {
         UIImageView *imgView = self.imageViewArray[i];
         
@@ -56,7 +58,7 @@
         CGFloat x =  10+col * (W + MarginW);
         CGFloat y =  10+row * (H + MarginH);
         imgView.frame = CGRectMake(x, y, W, H);
-        NSLog(@"%@",NSStringFromCGRect(imgView.frame));
+        imgView.image = [UIImage imageNamed:[NSString stringWithFormat:@"moment_pic_%d",i]];
     }
 }
 - (void)tap:(UITapGestureRecognizer *)tap {

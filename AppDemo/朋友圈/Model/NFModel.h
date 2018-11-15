@@ -6,20 +6,37 @@
 //  Copyright © 2018 apple. All rights reserved.
 //
 
+#define ContentFontSize 15  // 内容字体大小
+
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
-NS_ASSUME_NONNULL_BEGIN
 
 @interface NFModel : NSObject
 
 @property (assign, nonatomic) CGFloat rowHeight;
 
 @property (copy, nonatomic) NSString *userName;
-@property (copy, nonatomic) NSString *content;
-@property (assign, nonatomic) CGFloat imageCount;
 
+@property (copy, nonatomic) NSString *content;
+
+@property (assign, nonatomic) CGFloat imageCount;
 
 @end
 
-NS_ASSUME_NONNULL_END
+
+@interface NFFrameModel : NSObject
+
+@property (assign, nonatomic) CGRect headFrame;
+
+@property (assign, nonatomic) CGRect nameFrame;
+
+@property (assign, nonatomic) CGRect contentFrame;
+
+@property (assign, nonatomic) CGRect imgListFrame;
+
+@property (assign, nonatomic) CGFloat cellHeight;
+
+@property (strong, nonatomic) NFModel *model;
+
+
+@end

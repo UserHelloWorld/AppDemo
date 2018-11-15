@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NFTableViewCell : UITableViewCell
 
-@property (strong, nonatomic) NFModel *model;
+@property (strong, nonatomic) NFFrameModel *model;
 
 @end
 
