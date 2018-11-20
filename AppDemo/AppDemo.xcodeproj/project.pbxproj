@@ -36,6 +36,12 @@
 		181B5E812193E52E004BCC0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181B5E7F2193E52E004BCC0B /* LaunchScreen.storyboard */; };
 		181B5E842193E52E004BCC0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B5E832193E52E004BCC0B /* main.m */; };
 		181B5E8A2193E553004BCC0B /* PeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B5E882193E553004BCC0B /* PeripheralManager.m */; };
+		185A178921A2C0E700091A6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A178821A2C0E700091A6F /* AppDelegate.m */; };
+		185A178C21A2C0E700091A6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A178B21A2C0E700091A6F /* ViewController.m */; };
+		185A178F21A2C0E700091A6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185A178D21A2C0E700091A6F /* Main.storyboard */; };
+		185A179121A2C0E900091A6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185A179021A2C0E900091A6F /* Assets.xcassets */; };
+		185A179421A2C0E900091A6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185A179221A2C0E900091A6F /* LaunchScreen.storyboard */; };
+		185A179721A2C0E900091A6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A179621A2C0E900091A6F /* main.m */; };
 		1877CE50219A57E00028BBB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877CE4F219A57E00028BBB1 /* AppDelegate.m */; };
 		1877CE53219A57E00028BBB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877CE52219A57E00028BBB1 /* ViewController.m */; };
 		1877CE56219A57E00028BBB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1877CE54219A57E00028BBB1 /* Main.storyboard */; };
@@ -101,6 +107,16 @@
 		181B5E832193E52E004BCC0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		181B5E882193E553004BCC0B /* PeripheralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralManager.m; sourceTree = "<group>"; };
 		181B5E892193E553004BCC0B /* PeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeripheralManager.h; sourceTree = "<group>"; };
+		185A178521A2C0E700091A6F /* 选择冒泡排序.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "选择冒泡排序.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		185A178721A2C0E700091A6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		185A178821A2C0E700091A6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		185A178A21A2C0E700091A6F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		185A178B21A2C0E700091A6F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		185A178E21A2C0E700091A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		185A179021A2C0E900091A6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		185A179321A2C0E900091A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		185A179521A2C0E900091A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185A179621A2C0E900091A6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1877CE4C219A57E00028BBB1 /* 朋友圈.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "朋友圈.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1877CE4E219A57E00028BBB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1877CE4F219A57E00028BBB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -155,6 +171,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		185A178221A2C0E700091A6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1877CE49219A57E00028BBB1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -173,6 +196,7 @@
 				181B5E532193E374004BCC0B /* 滴滴效果打车首页效果 */,
 				181B5E732193E52D004BCC0B /* 广播手动输入16进制数据 */,
 				1877CE4D219A57E00028BBB1 /* 朋友圈 */,
+				185A178621A2C0E700091A6F /* 选择冒泡排序 */,
 				181B5E152193D786004BCC0B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -185,6 +209,7 @@
 				181B5E522193E374004BCC0B /* 滴滴效果打车首页效果.app */,
 				181B5E722193E52D004BCC0B /* 广播手动输入16进制数据.app */,
 				1877CE4C219A57E00028BBB1 /* 朋友圈.app */,
+				185A178521A2C0E700091A6F /* 选择冒泡排序.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -261,6 +286,22 @@
 				181B5E832193E52E004BCC0B /* main.m */,
 			);
 			path = "广播手动输入16进制数据";
+			sourceTree = "<group>";
+		};
+		185A178621A2C0E700091A6F /* 选择冒泡排序 */ = {
+			isa = PBXGroup;
+			children = (
+				185A178721A2C0E700091A6F /* AppDelegate.h */,
+				185A178821A2C0E700091A6F /* AppDelegate.m */,
+				185A178A21A2C0E700091A6F /* ViewController.h */,
+				185A178B21A2C0E700091A6F /* ViewController.m */,
+				185A178D21A2C0E700091A6F /* Main.storyboard */,
+				185A179021A2C0E900091A6F /* Assets.xcassets */,
+				185A179221A2C0E900091A6F /* LaunchScreen.storyboard */,
+				185A179521A2C0E900091A6F /* Info.plist */,
+				185A179621A2C0E900091A6F /* main.m */,
+			);
+			path = "选择冒泡排序";
 			sourceTree = "<group>";
 		};
 		1877CE4D219A57E00028BBB1 /* 朋友圈 */ = {
@@ -395,6 +436,23 @@
 			productReference = 181B5E722193E52D004BCC0B /* 广播手动输入16进制数据.app */;
 			productType = "com.apple.product-type.application";
 		};
+		185A178421A2C0E700091A6F /* 选择冒泡排序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185A179A21A2C0E900091A6F /* Build configuration list for PBXNativeTarget "选择冒泡排序" */;
+			buildPhases = (
+				185A178121A2C0E700091A6F /* Sources */,
+				185A178221A2C0E700091A6F /* Frameworks */,
+				185A178321A2C0E700091A6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "选择冒泡排序";
+			productName = "选择冒泡排序";
+			productReference = 185A178521A2C0E700091A6F /* 选择冒泡排序.app */;
+			productType = "com.apple.product-type.application";
+		};
 		1877CE4B219A57E00028BBB1 /* 朋友圈 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1877CE61219A57E10028BBB1 /* Build configuration list for PBXNativeTarget "朋友圈" */;
@@ -433,6 +491,9 @@
 					181B5E712193E52D004BCC0B = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					185A178421A2C0E700091A6F = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					1877CE4B219A57E00028BBB1 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -456,6 +517,7 @@
 				181B5E512193E374004BCC0B /* 滴滴效果打车首页效果 */,
 				181B5E712193E52D004BCC0B /* 广播手动输入16进制数据 */,
 				1877CE4B219A57E00028BBB1 /* 朋友圈 */,
+				185A178421A2C0E700091A6F /* 选择冒泡排序 */,
 			);
 		};
 /* End PBXProject section */
@@ -498,6 +560,16 @@
 				181B5E812193E52E004BCC0B /* LaunchScreen.storyboard in Resources */,
 				181B5E7E2193E52E004BCC0B /* Assets.xcassets in Resources */,
 				181B5E7C2193E52D004BCC0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185A178321A2C0E700091A6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185A179421A2C0E900091A6F /* LaunchScreen.storyboard in Resources */,
+				185A179121A2C0E900091A6F /* Assets.xcassets in Resources */,
+				185A178F21A2C0E700091A6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,6 +628,16 @@
 				181B5E8A2193E553004BCC0B /* PeripheralManager.m in Sources */,
 				181B5E842193E52E004BCC0B /* main.m in Sources */,
 				181B5E762193E52D004BCC0B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185A178121A2C0E700091A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185A178C21A2C0E700091A6F /* ViewController.m in Sources */,
+				185A179721A2C0E900091A6F /* main.m in Sources */,
+				185A178921A2C0E700091A6F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -638,6 +720,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				181B5E802193E52E004BCC0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		185A178D21A2C0E700091A6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185A178E21A2C0E700091A6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		185A179221A2C0E900091A6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185A179321A2C0E900091A6F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -903,6 +1001,38 @@
 			};
 			name = Release;
 		};
+		185A179821A2C0E900091A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "选择冒泡排序/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LV.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		185A179921A2C0E900091A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "选择冒泡排序/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LV.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		1877CE5F219A57E10028BBB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -979,6 +1109,15 @@
 			buildConfigurations = (
 				181B5E862193E52E004BCC0B /* Debug */,
 				181B5E872193E52E004BCC0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185A179A21A2C0E900091A6F /* Build configuration list for PBXNativeTarget "选择冒泡排序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185A179821A2C0E900091A6F /* Debug */,
+				185A179921A2C0E900091A6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
