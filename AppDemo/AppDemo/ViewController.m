@@ -15,16 +15,19 @@
 
 @implementation ViewController
 
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [NFDownloadVideoManagerInstance startDownLoadVedio:@"https://media.w3.org/2010/05/sintel/trailer.mp4" progress:^(float progress) {
+//    [NFDownloadVideoManagerInstance startDownLoadVedio:@"https://media.w3.org/2010/05/sintel/trailer.mp4" progress:^(float progress) {
+//        
+//    } finish:^(NSString *locationURL) {
+//        
+//    }];
+    [[NFDownloadVideoManager shareInstance] startDownLoadVedio:@"https://www.bilibili.com/video/av14410295" progress:^(float progress) {
         
     } finish:^(NSString *locationURL) {
         
     }];
 }
-
 
 
 @end

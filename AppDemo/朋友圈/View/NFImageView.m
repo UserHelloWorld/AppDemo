@@ -23,7 +23,7 @@
     if (self) {
         
         _imageViewArray = [NSMutableArray array];
-        for (int i = 0; i < 9; i++) {
+        for (int i = 0; i < 100; i++) {
             UIImageView *imgView = [[UIImageView alloc] initWithFrame:CGRectZero];
             [_imageViewArray addObject:imgView];
             [self addSubview:imgView];
@@ -45,9 +45,11 @@
     for (UIImageView *img in self.imageViewArray) {
         img.image = nil;
     }
+    
     for (int i = 0; i < self.model.imageCount; i++) {
         UIImageView *imgView = self.imageViewArray[i];
-        
+        imgView.clipsToBounds = YES;
+        imgView.contentMode = UIViewContentModeScaleAspectFill;
         CGFloat W = 80;
         CGFloat H = 80;
         // 间隙 =（ 整个宽度 - 3个控件的宽度 ）/ 4
@@ -58,7 +60,7 @@
         CGFloat x =  10+col * (W + MarginW);
         CGFloat y =  10+row * (H + MarginH);
         imgView.frame = CGRectMake(x, y, W, H);
-        imgView.image = [UIImage imageNamed:[NSString stringWithFormat:@"moment_pic_%d",i]];
+        imgView.image = [UIImage imageNamed:[NSString stringWithFormat:@"moment_pic_%d",(i % 9)]];
     }
 }
 - (void)tap:(UITapGestureRecognizer *)tap {

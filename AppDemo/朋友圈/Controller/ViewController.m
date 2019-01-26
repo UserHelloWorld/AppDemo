@@ -36,7 +36,7 @@ static NSString *identifier = @"cell";
         m.content =contList[arc4random_uniform(contList.count)] ;
         NSLog(@"%@",m.content);
         m.userName = @"我试试";
-        m.imageCount = arc4random_uniform(9);
+        m.imageCount = arc4random_uniform(50);
         
         NFFrameModel *fM = [[NFFrameModel alloc] init];
         fM.model = m;
