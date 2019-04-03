@@ -162,7 +162,7 @@
         CGFloat totalDuration = CMTimeGetSeconds(duration);
         //缓存值
         CGFloat time  = timeInterval / totalDuration;
-//       NSLog(@"%f",time);
+       NSLog(@"%f",time);
     }
     
 }
